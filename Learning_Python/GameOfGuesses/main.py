@@ -5,12 +5,13 @@ guess = -1
 no_of_guesses = 0
 
 while ( guess != number):
-    no_of_guesses += 1
     guess = int(input("Enter you guess (1 - 100) : "))
     
     if (guess < number):
         print(" Guess a higher number!")
-    else:
+    elif (guess > number):
         print("Guess a lower number!")
 
-print(f"You guessed it right in {no_of_guesses} guesses!" )
+    no_of_guesses += 1
+
+print(f"You guessed the number {number} right in {no_of_guesses} guesses!" )
