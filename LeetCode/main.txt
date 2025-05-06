@@ -1,1 +1,1 @@
-THis folder has the Leet code solutions
+This folder has the Leet code solutions
