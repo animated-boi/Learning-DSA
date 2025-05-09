@@ -26,6 +26,7 @@ class Solution:
         while l < r:
             s[r], s[l] = s[l], s[r]
             l, r = l + 1, r - 1
+
         return s
 
 
