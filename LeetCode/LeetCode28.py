@@ -77,8 +77,11 @@ class Solution:
 
 #         return -1
 
-sol = Solution()
-print(sol.strStr('sunanimshanimansh', 'animan'))
+# sol = Solution()
+# print(sol.strStr('sunanimshanimansh', 'animan'))
+
+
+
 
 
 
