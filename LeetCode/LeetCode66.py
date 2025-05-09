@@ -6,7 +6,7 @@
 
 # print(list(str(word)))
 
-#Approach One
+#Approach 1
 from typing import List
 
 # class Solution:
@@ -18,7 +18,7 @@ from typing import List
     
 
 
-# #Approach2 - UNFINISHED
+#Approach 2 
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         carry = 1
