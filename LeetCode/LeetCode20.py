@@ -28,4 +28,4 @@ class Solution:
             return False
         
 sol = Solution()
-print(sol.isValid(''))
+print(sol.isValid('{{{{{}}}}'))
