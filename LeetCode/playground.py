@@ -3,6 +3,12 @@
 
 
 
-num = [1, 2, 3, 4 ,5]
+s = 'HI! my name is Animesh. It\'s nice to meet you!!!'
+stk = []
+for i in range(len(s)):
+    if ('A' <= s[i] <= 'Z') or ('a' <= s[i] <= 'z') or ('0' <= s[i] <= '9'):
+        stk.append(s[i])
+
+print(stk)
 
 
